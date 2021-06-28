@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppleSignInViewController" customModule="Demo" customModuleProvider="target">
+            <connections>
+                <outlet property="appleSignInBtn" destination="Tcg-Gy-aSb" id="on5-1X-FHs"/>
+                <outlet property="fbSignInBtn" destination="W1x-lI-1w1" id="pFD-zq-lbm"/>
+                <outlet property="googlePlusSignInBtn" destination="S0P-1M-ePg" id="G3w-Pz-WSI"/>
+                <outlet property="twitterSignInBtn" destination="2ir-Cq-jOK" id="fhb-nH-out"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="whatappBtn" destination="R4Y-c2-NRr" id="fpW-Yq-Q7O"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tcg-Gy-aSb">
+                    <rect key="frame" x="57" y="145" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.08235294118" green="0.12549019610000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Yk8-Xj-QJy"/>
+                        <constraint firstAttribute="width" constant="300" id="a8x-oq-KTj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <state key="normal" title="Apple SignIn">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="appleSigninBtnAction:" destination="-1" eventType="touchUpInside" id="MO6-dV-P1V"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="----- Login ----- " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E8t-jJ-qRq">
+                    <rect key="frame" x="20" y="74" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1x-lI-1w1">
+                    <rect key="frame" x="57" y="215" width="300" height="40"/>
+                    <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="ifc-lv-COH"/>
+                        <constraint firstAttribute="height" constant="40" id="nqc-Ct-snk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <state key="normal" title="Facebook">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="fbSignInBtnAction:" destination="-1" eventType="touchUpInside" id="lnh-mW-1UW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0P-1M-ePg">
+                    <rect key="frame" x="57" y="285" width="300" height="40"/>
+                    <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="dOi-Wx-A5T"/>
+                        <constraint firstAttribute="height" constant="40" id="evc-09-Yv9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <state key="normal" title="Google Plus">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="googlePlusBtnAction:" destination="-1" eventType="touchUpInside" id="cWE-DP-h8G"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4Y-c2-NRr">
+                    <rect key="frame" x="57" y="355" width="300" height="40"/>
+                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="IRe-Lx-oGD"/>
+                        <constraint firstAttribute="height" constant="40" id="VCy-uB-bBS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <state key="normal" title="WhatsApp">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="whatsappBtnAction:" destination="-1" eventType="touchUpInside" id="Mg3-sr-CCC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ir-Cq-jOK">
+                    <rect key="frame" x="57" y="425" width="300" height="40"/>
+                    <color key="backgroundColor" red="0.08235294118" green="0.12549019610000001" blue="0.1333333333" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Thw-bd-FEy"/>
+                        <constraint firstAttribute="width" constant="300" id="fdr-5b-yll"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <state key="normal" title="Twitter">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="twitterSignInBtnAcrtion:" destination="-1" eventType="touchUpInside" id="tab-29-EGe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Un-0O-s03">
+                    <rect key="frame" x="20" y="69.5" width="50" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="4d3-QV-29M"/>
+                        <constraint firstAttribute="height" constant="30" id="kA8-hy-cg4"/>
+                    </constraints>
+                    <state key="normal" title="Back"/>
+                    <connections>
+                        <action selector="backBtnAction:" destination="-1" eventType="touchUpInside" id="Eyh-90-cWi"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="S0P-1M-ePg" firstAttribute="top" secondItem="W1x-lI-1w1" secondAttribute="bottom" constant="30" id="0AV-0P-Owj"/>
+                <constraint firstItem="R4Y-c2-NRr" firstAttribute="top" secondItem="S0P-1M-ePg" secondAttribute="bottom" constant="30" id="4H9-td-Fo7"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="E8t-jJ-qRq" secondAttribute="trailing" constant="20" id="9Bz-jr-9rg"/>
+                <constraint firstItem="W1x-lI-1w1" firstAttribute="top" secondItem="Tcg-Gy-aSb" secondAttribute="bottom" constant="30" id="ApD-0e-EN2"/>
+                <constraint firstItem="9Un-0O-s03" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Ars-1d-0Za"/>
+                <constraint firstItem="W1x-lI-1w1" firstAttribute="leading" secondItem="Tcg-Gy-aSb" secondAttribute="leading" id="FMs-LV-HGn"/>
+                <constraint firstItem="E8t-jJ-qRq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="INN-wL-iu1"/>
+                <constraint firstItem="S0P-1M-ePg" firstAttribute="leading" secondItem="W1x-lI-1w1" secondAttribute="leading" id="JSl-ZW-tcO"/>
+                <constraint firstItem="9Un-0O-s03" firstAttribute="centerY" secondItem="E8t-jJ-qRq" secondAttribute="centerY" id="MEe-Lu-KyT"/>
+                <constraint firstItem="E8t-jJ-qRq" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="30" id="P0r-pH-6OC"/>
+                <constraint firstItem="2ir-Cq-jOK" firstAttribute="top" secondItem="R4Y-c2-NRr" secondAttribute="bottom" constant="30" id="QIi-t9-2I0"/>
+                <constraint firstItem="R4Y-c2-NRr" firstAttribute="leading" secondItem="S0P-1M-ePg" secondAttribute="leading" id="Vbl-bK-kry"/>
+                <constraint firstItem="Tcg-Gy-aSb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YfR-Kx-XEL"/>
+                <constraint firstItem="2ir-Cq-jOK" firstAttribute="leading" secondItem="R4Y-c2-NRr" secondAttribute="leading" id="hB1-zC-56d"/>
+                <constraint firstItem="Tcg-Gy-aSb" firstAttribute="top" secondItem="E8t-jJ-qRq" secondAttribute="bottom" constant="50" id="qUX-3f-tVv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="132" y="126"/>
+        </view>
+    </objects>
+</document>

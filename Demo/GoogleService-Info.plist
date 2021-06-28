@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>129157486363-fgl0ifcvrpn34l1qnt6j9crc37960aak.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.129157486363-fgl0ifcvrpn34l1qnt6j9crc37960aak</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBoaukuSQpFiZHCyhpJJKoIO5_DL5iRFfs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>129157486363</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.trivial.demo</string>
+	<key>PROJECT_ID</key>
+	<string>gamerup-dc0cc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gamerup-dc0cc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:129157486363:ios:2b312be5c500531f16a5be</string>
+	<key>DATABASE_URL</key>
+	<string>https://gamerup-dc0cc.firebaseio.com</string>
+</dict>
+</plist>
